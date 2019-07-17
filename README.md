@@ -42,12 +42,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
-  The four rules or four kinds? The four kinds/rules are Implicit, Explicit, World, and New Binding.
-  Implicit binding has a rule of thumb that says look to the left of a dot to see what this is pointint to or which object this is pointing to.
-  Explicit binding means that this gets explicitly binded to an object whenever we use the call or apply methods. Call is mostly used on a singular object, while apply is used to return an array of objects. 
-  So, World binding just points to the global or window object.
+  The four rules or four kinds? The four kinds/rules are Implicit, Explicit, Global, and New Binding.
+  Implicit binding has a rule of thumb that says look to the left of a dot to see what this is pointing to or which object this is pointing to.
+  Explicit binding means that this gets explicitly bound to an object whenever we use the call or apply methods. Call is mostly used on a singular object, while apply is used to return an array of objects. 
+  So, Global binding just points to the global or window object.
   We see new binding when we are creating new objects within a class or constructor function and the new keyword binds this to that object.
-
 
 5. Why do we need super() in an extended class?
 
